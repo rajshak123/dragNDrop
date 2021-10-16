@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 1rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 10px;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+.mainContainer{
+  display: flex;
+  margin: 10px;
+}
+.heading{
+  color: #9090e5;
+}
